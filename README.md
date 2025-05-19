@@ -24,26 +24,26 @@ This project demonstrates deploying a simple app with Kubernetes using Minikube 
 1. Start Minikube with Docker driver (if not already running):
 
    ```bash
-   minikube start --driver=docker
+   - minikube start --driver=docker
 
 2. Apply the deployment:
 
-   kubectl apply -f deployment.yaml
+   - kubectl apply -f deployment.yaml
 
 3. Apply the service:
 
-    kubectl apply -f service.yaml
+   - kubectl apply -f service.yaml
 
 4. Check pods and service status:
     
-    kubectl get pods
-    kubectl get svc
+   - kubectl get pods
+   - kubectl get svc
  
  ## Accessing the Service
 
  1. Using Minikube service tunnel (recommended on Windows with Docker driver):
 
-    minikube service my-service
+    - minikube service my-service
 
     - This will open your default browser to the service URL, typically something like:
 
