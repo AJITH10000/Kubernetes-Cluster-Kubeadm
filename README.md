@@ -46,10 +46,12 @@ This project demonstrates deploying a simple app with Kubernetes using Minikube 
  ## Accessing the Service
 
  1. Using Minikube service tunnel (recommended on Windows with Docker driver):
- 
+
     ```bash
 
     - minikube service my-service
+
+    ``bash
 
     - This will open your default browser to the service URL, typically something like:
 
