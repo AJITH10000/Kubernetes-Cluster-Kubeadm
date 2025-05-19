@@ -51,8 +51,6 @@ This project demonstrates deploying a simple app with Kubernetes using Minikube 
 
     - minikube service my-service
 
-    ``bash
-
     - This will open your default browser to the service URL, typically something like:
 
         http://127.0.0.1:<random-port>
