@@ -28,13 +28,17 @@ This project demonstrates deploying a simple app with Kubernetes using Minikube 
 
 2. Apply the deployment:
 
+   ```bash
    - kubectl apply -f deployment.yaml
 
 3. Apply the service:
 
+   ```bash
    - kubectl apply -f service.yaml
 
 4. Check pods and service status:
+
+    ```bash
     
    - kubectl get pods
    - kubectl get svc
@@ -42,6 +46,8 @@ This project demonstrates deploying a simple app with Kubernetes using Minikube 
  ## Accessing the Service
 
  1. Using Minikube service tunnel (recommended on Windows with Docker driver):
+ 
+    ```bash
 
     - minikube service my-service
 
